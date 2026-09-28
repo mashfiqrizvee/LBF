@@ -1,0 +1,8 @@
+frontend,macro_auc
+DCT,0.803
+Haar wavelet,0.787
+Raw pixels,0.708
+HOG,0.675
+Gabor,0.666
+BSIF,0.650
+LBP,0.633

@@ -1,0 +1,12 @@
+# These large third-party model files are not duplicated in the handoff.
+# Check a locally obtained copy before regenerating raw templates.
+
+[dlib_landmarks]
+file = "shape_predictor_68_face_landmarks.dat"
+sha256 = "fbdc2cb80eb9aa7a758672cbfdda32ba6300efe9b6e6c7a299ff7e736b11b92f"
+
+[arcface]
+file = "w600k_r50.onnx"
+sha256 = "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43"
+stage_tensor = "BatchNormalization_126"
+

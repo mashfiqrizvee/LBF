@@ -1,0 +1,31 @@
+[faces94]
+identities = 152
+images = 3040
+protocol = "successful first half enrolls; remaining successful images are genuine probes"
+
+[faces95]
+identities = 72
+images = 1440
+protocol = "successful first half enrolls; remaining successful images are genuine probes"
+
+[faces96]
+identities = 151
+images = 3016
+protocol = "successful first half enrolls; remaining successful images are genuine probes"
+
+[fei]
+identities = 200
+images = 400
+protocol = "capture 0 enrolls; capture 1 probes"
+
+[feret]
+identities = 923
+images = 1846
+protocol = "capture 0 enrolls; capture 1 probes; incomplete successful pairs are unused"
+
+[combined]
+identities = 1498
+images = 9742
+fit_identities = 450
+development_identities = 375
+evaluation_identities = 673

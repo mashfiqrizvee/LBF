@@ -1,0 +1,23 @@
+{
+  "selection_metric": "development balanced accuracy",
+  "tie_break": "higher integer threshold",
+  "frozen_before_evaluation": true,
+  "thresholds": {
+    "P1|faces94": 74,
+    "P1|faces95": 72,
+    "P1|faces96": 70,
+    "P1|fei": 55,
+    "P1|feret": 78,
+    "P2|faces94": 13,
+    "P2|faces95": 9,
+    "P2|faces96": 14,
+    "P2|fei": 6,
+    "P2|feret": 11,
+    "P3|faces94": 14,
+    "P3|faces95": 9,
+    "P3|faces96": 14,
+    "P3|fei": 3,
+    "P3|feret": 9
+  }
+}
+

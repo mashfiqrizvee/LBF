@@ -1,0 +1,7 @@
+# Paths are relative to the handoff root.  `python run.py verify` checks them.
+6ced096413ffc5adb0b061d42b211b77b1154b5faa5bf5cc9b08ca9abaf84c28  data/selected_samples.csv
+6bf728e2d865caf753a10cdc0cccdee96c480ee2a4f82a753db2db6923106227  frozen/templates.npz
+390a4185f6b7e2441471b3695a1fcfe9706a7ff5f67948c0536cd2caf608b6bf  frozen/faces_encoder.npz
+34cfe0e134c677533e78ecbac090220730d8714b0c8e72fd9c2a5a1deeacbb92  frozen/fei_feret_encoder.npz
+5081fc427a10e4e4552da9840035e419cca7f18cd1b4d8ab9dceab014c7b7a10  results/final_metrics.csv
+e18cfbdd154f6b91c549e2f848deb7ff35d1d068274844958e52b354bed657c0  results/final_predictions.csv

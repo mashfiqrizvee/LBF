@@ -1,0 +1,6 @@
+false_positive_probability,auc
+0.5,0.5890
+0.1,0.5904
+0.01,0.5912
+0.001,0.5901
+exact_set,0.5907

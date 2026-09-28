@@ -1,0 +1,40 @@
+[experiment]
+seed = 42
+false_positive_probability = 0.01
+threshold_selection = "development_balanced_accuracy"
+threshold_tie_break = "higher_integer_threshold"
+
+[protocol]
+partitions = ["fit", "development", "evaluation"]
+essex = "successful_first_half_enroll_remaining_genuine"
+fei_feret = "paired_capture_0_enroll_capture_1_probe"
+
+[pipeline1]
+name = "Global Pixel HBF"
+paper_size = 70
+template_bits = 4900
+lowest_block_bits = 32
+middle_block_bits = 416
+thesis_filters = 167
+original_filters = 165
+
+[pipeline2]
+name = "Landmark DCT LBF"
+patch_size = 32
+dct_size = 8
+bits_per_landmark = 12
+selected_landmarks = 48
+template_bits = 576
+
+[pipeline3]
+name = "Landmark ArcFace LBF"
+input_size = 112
+stage_tensor = "BatchNormalization_126"
+stage_channels = 512
+stage_height = 7
+stage_width = 7
+pca_dimensions = 64
+bits_per_landmark = 12
+selected_landmarks = 48
+template_bits = 576
+

@@ -1,0 +1,19 @@
+# Only sweeps that informed the final dissertation are listed here.
+
+[dct_bit_depth]
+values = [4, 6, 8, 12, 16, 24, 32, 48]
+selection_partition = "development"
+selected = 12
+
+[landmark_count]
+values = [24, 31, 48, 68]
+selection_partition = "development"
+selected = 48
+
+[bloom_false_positive_probability]
+values = [0.5, 0.1, 0.01, 0.001]
+selected = 0.01
+
+[hierarchy]
+levels = ["lowest", "middle", "top"]
+
